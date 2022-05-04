@@ -1,2 +1,1 @@
-# HTML_siteVendaTelemoveis
-trabalhando em um site para venda de telemóveis
+Trabalhando em um site para venda de telemóveis
