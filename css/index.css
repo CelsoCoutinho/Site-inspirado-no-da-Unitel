@@ -3,7 +3,7 @@
     padding: 0px;
     margin-left: 100px;
     width: 40px;
-    height: 101%;
+    height: 106%;
     position: absolute;
     top: 0px;
     background-color:rgba(200, 200, 200, 0.4);
@@ -19,7 +19,7 @@
 .direita {
     right: 100px;
     width: 40px;
-    height: 101%;
+    height: 106%;
     top: 0px;
     position: absolute;
     background-color:rgba(200, 200, 200, 0.4);
@@ -99,15 +99,18 @@ position: fixed;
 background-color:rgb(255, 255, 255);    
 margin: auto 140px auto 140px;}
 
+.divsection{
+    margin: 2px 1px 5px 1px;
+}
 
 .section {
-    text-align: center;
-    margin: 0px 20px 10px 20px;
+    align-content: center;
+    width: 100%;
 }
-.scdiv {
-    padding: 10px;
-  
-} 
+.section img{
+    width: 100%;
+}
+
 .face{
     width: 230px;
     height: 230px;
