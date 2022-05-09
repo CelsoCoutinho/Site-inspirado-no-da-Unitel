@@ -1,9 +1,8 @@
-
 .esquerda {
     padding: 0px;
     margin-left: 100px;
     width: 40px;
-    height: 455%;
+    height: 100%;
     position: absolute;
     top: 0px;
     background-color:rgba(200, 200, 200, 0.4);
@@ -37,7 +36,8 @@
 .cabecalho{
 background-color: white;    
 position: relative;
-height: 112px;    
+height: 112px;
+padding: 20px 0px 0px 0px ;    
 margin: 0px 140px 0px 140px;}
 
 .cabecalho h1{
@@ -47,11 +47,11 @@ position: fixed;
 /* Menu */
 .menu ul {
     list-style-type: none;
-    margin: 0px 140px 2px 140px;
+    margin: 0px 140px 5px 140px;
     padding: 0;
     overflow: hidden;
-    background-color:rgb(29, 38, 78);
-    box-shadow: rgb(0, 247, 255) 0px 5px 5px -3px ;
+    background-color:rgb(243, 111, 29);
+    box-shadow: rgb(55, 22, 0) 0px 5px 10px -3px ;
     border-radius: 4%;
 }
   
@@ -61,37 +61,37 @@ position: fixed;
 .menu li a {
     font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     display: flex;
-    color: white;
-    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
     transition: 0.5s;
     text-align: center;
     padding: 10px 13px;
     text-decoration: none;}
 
   li a:hover {
-    color: rgb(0, 247, 255);
+    color: rgb(0, 0, 0);
     transition: 0.5s;}
 
 .sobre{
-    background-color: black;}
-       
+    background-color: rgb(234, 87, 37);}
+      
 .submenu2{
     display: none;
     position: absolute;
-    background-color:rgb(20, 26, 54);
+    background-color:rgb(243, 111, 29);
     min-width: 160px;
-    box-shadow: 0px 2px 1px 1px rgb(0, 247, 255);
-    z-index: 1;
+    box-shadow: 0px 2px 1px 1px rgba(255, 255, 255, 0.343);
+    z-index: 3;
     }
     
 .submenu2 a{
     font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    border-bottom:1px solid rgba(0, 247, 255, 0.178);
+    border-bottom:1px solid rgba(255, 255, 255, 0.826);
     }
       
 .submenu1:hover .submenu2 {
     display: block;
-      }    
+      }       
 /*Fim do menu*/
 
 /* corpo da pagina */

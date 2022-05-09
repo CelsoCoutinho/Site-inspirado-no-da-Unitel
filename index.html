@@ -9,53 +9,82 @@
 
 <!--cabecalho-->
 <header class="cabecalho">
-<h1>CLAV</h1>
-
+    <div class="divlogo">
+    <img src="imagens/logo_laranjinha.png" alt="">
+    </div>    
 </header>
 
     <div class="esquerda">    
-        <img src="imagens/esquerda.png">
+        <img src="imagens/esquerda1.png">
     </div>
     <div class="direita" >
-        <img src="imagens/direita.png">
+        <img src="imagens/direita1.png">
     </div> 
 <!--Menu-->
 <div class="menu">
     <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html" style="color:black ;"><b>HOME</b></a></li>
         <li class="submenu1">
-            <a href="javascript:void(0)" class="dropbtn">Nossos produtos</a>
+            <a href="javascript:void(0)" class="dropbtn"><b>PARTICULARES</b></a>
               <div class="submenu2">
-                <a href="apple.html">Apple</a>
-                <a href="#">Samsung</a>
-                <a href="#">Xiaomi</a>
-                <a href="#">Acessórios</a>
+                <a href="equipamentos.html">Equipamentos</a>
+                <a href="#">Consulta de Saldo</a>
+                <a href="#">Serviços</a>
+                <a href="#">10 Amigos</a>
               </div>
-        </li><li class="submenu1">
-            <a href="javascript:void(0)" class="dropbtn">Minha conta</a>
+        </li>
+        <li class="submenu1">
+            <a href="javascript:void(0)" class="dropbtn"><b>ÁREA DE CLIENTE</b></a>
               <div class="submenu2">
                 <a href="#">Login</a>
                 <a href="conta.html">registe-se</a>
               </div>
         </li>
-        <li><a href="#contact">Fale conosco</a></li>
-        <li style="float:right" class="sobre"><a href="*">sobre</a></li>
+        <li><a href="#contact"><b>FALE CONOSCO</b></a></li>
+        <li style="float:right" class="sobre"><a href="*"><b>SOBRE A UNITEL</b></a></li>
        
     </ul>
 </div>
 
     <!-- corpo da pagina-->
     
-<body style="background-image: url(imagens/fundo.png);">
+<body >
  <div class="divcorpo">
 
     <!--section-->
-    <div class="divsection">
-        <section class="section">
-            <img src="imagens/iphone11conjunto.png">
-        <div class="scdiv"> 
-        </section>
+<div class="divsection">    
+<section class="section">
+    
+<div class="w3-display-container" >
+    <img class="mySlides" src="imagens/buasó.png" style="width:100%">
+    <img class="mySlides" src="imagens/moca.jpeg" style="width:100%">
+    <img class="mySlides" src="imagens/irmao.jpeg" style="width:100%">
+    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+      <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+      <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
     </div>
+  </div>
+</section> 
+</div>   
+     <script>
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 4000); // Change image every 2 seconds
+      }
+      </script>
+
+
+
   <!--parte de baixo-->
  <footer class="footer">
       <div class="span2">
