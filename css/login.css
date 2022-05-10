@@ -34,20 +34,20 @@
 
 /*Cabecalho*/
 .cabecalho{
-background-color: white;    
-position: relative;
-height: 112px;
-padding: 20px 0px 0px 0px ;   
-box-shadow: rgba(0, 0, 0, 0.76) 0px -4px 12px 0px ;  
-margin: 0px 140px 0px 140px;
-}
-
+    background-color: white;    
+    position: relative;
+    height: 112px;
+    padding: 20px 0px 0px 0px ;   
+    box-shadow: rgba(0, 0, 0, 0.76) 0px -4px 12px 0px ;  
+    margin: 0px 140px 0px 140px;
+    }
+  
 /* Menu */
 .menu ul {
     list-style-type: none;
     margin: 0px 140px 5px 140px;
-    padding: 0;
     overflow: hidden;
+    padding: 0;
     background-color:rgb(243, 111, 29);
     box-shadow: rgb(55, 22, 0) 0px 5px 10px -3px ;
     border-radius: 4%;
@@ -91,78 +91,27 @@ margin: 0px 140px 0px 140px;
       
 .submenu1:hover .submenu2 {
     display: block;
-      }   
+      }     
 /*Fim do menu*/
 
 /* corpo da pagina */
 .divcorpo{    
-background-color:rgb(255, 255, 255);    
-margin: auto 140px auto 140px;
-box-shadow: rgba(0, 0, 0, 0.76) 0px -4px 12px 0px ;  
-}
-section{
+    background-color:rgb(255, 255, 255); 
+    border: 1px solid rgba(0, 0, 0, 0); 
+    margin: auto 140px auto 140px;
+    box-shadow: rgba(0, 0, 0, 0.76) 0px -4px 12px 0px ;  
+    }    
+
+/*Formulario*/
+#regist{
+    font-size: 200%;
     text-align: center;
-    margin: -2px 20px auto 20px;
-}
-section li img{
-    width: 150px;
-    padding: 10px;
-}
-.section ul{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-}
-section li{
-    border: 1px solid rgba(0, 0, 0, 0.164);
-    margin: 10px 5px auto 5px;
-    border-radius: 10px;
-    background-color:rgb(253, 223, 205);
-}
-.btniphone {
-    display: inline-block;
-    padding: 2px 10px;
-    font-size: 15px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: rgb(0, 0, 0);
-    background-color:rgb(210, 210, 210);
-    border: none;
-    border-radius: 7px;
-    
-  }
-  .btniphone:hover {
-    color: rgb(243, 111, 29);
-    box-shadow: 0px 0px 1px 2px rgb(243, 111, 29); 
-}
+    }
 
-#relogios img{
-    width: 300px;   
-}
-
-#iphone11 {
-    position: relative;
-    margin: 5px auto 0px auto;
-}
-#iphone11 img {
-    position: relative;
-    margin: 5px 0px 0px 0px;
-    opacity: 60%;
-    width: 100%;
-    text-align: center;
-}
-
-#iphone12 {
-    position: relative;
-    padding: 30px 0px 0px 0px;
-}
-#relogiosh1{
-    padding: 30px 0px 0px 0px;
-}
-
+.section-conta {
+    width: 350px;
+    margin: 0px auto 0px auto;
+} 
 /*parte de baixo*/
 .footer {
     display: flex;
