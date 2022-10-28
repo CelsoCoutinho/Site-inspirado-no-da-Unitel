@@ -1,149 +1,152 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/w3css/3/w3.css">
-    <title>Unitel</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/w3css/3/w3.css">
+  <title>Unitel</title>
 </head>
 
-<div class="esquerda">    
-    <img src="imagens/esquerda1.png">
+<div class="esquerda">
+  <img src="imagens/esquerda1.png">
 </div>
-<div class="direita" >
-    <img src="imagens/direita1.png">
-</div> 
+<div class="direita">
+  <img src="imagens/direita1.png">
+</div>
 <!--cabecalho-->
 <header class="cabecalho">
-    <div class="divlogo">
+  <div class="divlogo">
     <img src="imagens/logo_laranjinha.png" alt="">
-    </div>    
+  </div>
 </header>
-    
+
 <!--Menu-->
 <div class="menu">
-    <ul>
-        <li><a href="index.html" style="color:black ;"><b>HOME</b></a></li>
-        <li class="submenu1">
-            <a href="javascript:void(0)" class="dropbtn"><b>PARTICULARES</b></a>
-              <div class="submenu2">
-                <a href="equipamentos.html">Equipamentos</a>
-                <a href="#">Consulta de Saldo</a>
-                <a href="#">Serviços</a>
-                <a href="#">10 Amigos</a>
-              </div>
-        </li>
-        <li class="submenu1">
-            <a href="javascript:void(0)" class="dropbtn"><b>ÁREA DE CLIENTE</b></a>
-              <div class="submenu2">
-                <a href="login.html">Login</a>
-                <a href="cliente.html">registe-se</a>
-              </div>
-        </li>
-        <li><a href="faleconosco.html"><b>FALE CONOSCO</b></a></li>
-        <li style="float:right" class="sobre"><a href="*"><b>SOBRE A UNITEL</b></a></li>
-       
-    </ul>
+  <ul>
+    <li><a href="index.html" style="color:black ;"><b>HOME</b></a></li>
+    <li class="submenu1">
+      <a href="javascript:void(0)" class="dropbtn"><b>PARTICULARES</b></a>
+      <div class="submenu2">
+        <a href="equipamentos.html">Equipamentos</a>
+        <a href="#">Consulta de Saldo</a>
+        <a href="#">Serviços</a>
+        <a href="#">10 Amigos</a>
+      </div>
+    </li>
+    <li class="submenu1">
+      <a href="javascript:void(0)" class="dropbtn"><b>ÁREA DE CLIENTE</b></a>
+      <div class="submenu2">
+        <a href="login.html">Login</a>
+        <a href="cliente.html">registe-se</a>
+      </div>
+    </li>
+    <li><a href="faleconosco.html"><b>FALE CONOSCO</b></a></li>
+    <li style="float:right" class="sobre"><a href="*"><b>SOBRE A UNITEL</b></a></li>
+
+  </ul>
 </div>
 
-    <!-- corpo da pagina-->
-    
+<!-- corpo da pagina-->
+
 <body style="background-image: url(imagens/fundo.png);">
- <div class="divcorpo">
+  <div class="divcorpo">
 
     <!--section-->
-<div class="divsection">    
-<section class="section">
-   
-<div class="w3-display-container" >
-    <img class="mySlides" src="imagens/avo.png" style="width:100%">
-    <img class="mySlides" src="imagens/moca.jpeg" style="width:100%">
-    <img class="mySlides" src="imagens/irmao.jpeg" style="width:100%">
-    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-      <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-      <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <div class="divsection">
+      <section class="section">
+
+        <div class="w3-display-container">
+          <img class="mySlides" src="imagens/avo.png" style="width:100%">
+          <img class="mySlides" src="imagens/moca.jpeg" style="width:100%">
+          <img class="mySlides" src="imagens/irmao.jpeg" style="width:100%">
+          <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
+            style="width:100%">
+            <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+            <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+          </div>
+        </div>
+      </section>
     </div>
-  </div>
-</section> 
-</div>   
-     <script>
+    <script>
       var myIndex = 0;
       carousel();
-      
+
       function carousel() {
         var i;
         var x = document.getElementsByClassName("mySlides");
         for (i = 0; i < x.length; i++) {
-          x[i].style.display = "none";  
+          x[i].style.display = "none";
         }
         myIndex++;
-        if (myIndex > x.length) {myIndex = 1}    
-        x[myIndex-1].style.display = "block";  
+        if (myIndex > x.length) { myIndex = 1 }
+        x[myIndex - 1].style.display = "block";
         setTimeout(carousel, 4000); // Change image every 2 seconds
       }
-      </script>
+    </script>
 
-      <div class="img3">
+    <div class="img3">
 
-        <div class="w3-card" style="width:30%">
-          <img src="imagens/gemeos.jpeg" alt="Person" style="width:100%">
-          <div class="w3-container">
-            <h4><b>Tarifários de Voz e Dados</b></h4>
-            <p>Escolha o tarifário que melhor se
-              adapta às suas necessidades na comunicação
-              e navegue na internet a melhor velocidade.</p>
-          </div>
-        </div>
-
-        <div class="w3-card" style="width:30%">
-          <img src="imagens/kison-unitel.png" alt="Person" style="width:100%">
-          <div class="w3-container">
-            <h4><b>Tarifário Maxibin</b></h4>
-            <p>Com o novo tarifário Maxibin podes ter
-               chamadas, sms, internet e Facebook Flex 
-               Grátis para rede Unitel STP.</p>
-          </div>
-        </div>
-
-        <div class="w3-card" style="width:30%">
-          <img src="imagens/tarifario-maxibin.jpeg" alt="Person" style="width:100%">
-          <div class="w3-container">
-            <h4><b>Promoção</b></h4>
-            <p>Vive mais a Internet a triplicar
-               em todos os pacotes. Agora com 2 
-               novos pacotes. Aproveita a promoção e
-               vive na net.</p>
-          </div>
+      <div class="w3-card" style="width:30%">
+        <img src="imagens/gemeos.jpeg" alt="Person" style="width:100%">
+        <div class="w3-container">
+          <h4><b>Tarifários de Voz e Dados</b></h4>
+          <p>Escolha o tarifário que melhor se
+            adapta às suas necessidades na comunicação
+            e navegue na internet a melhor velocidade.</p>
         </div>
       </div>
 
-  <!--parte de baixo-->
-  <footer class="footer">
-    <div class="span2">
-      <h5><b>MAIS SEVIÇOS</b></h5>
-      <a href="#">Internet no telemóvel</a><br>
-      <a href="#">Roaming</a><br>
-      <a href="#">Serviços</a><br>
-      <a href="#">Revistas</a><br>
-       </div>
+      <div class="w3-card" style="width:30%">
+        <img src="imagens/kison-unitel.png" alt="Person" style="width:100%">
+        <div class="w3-container">
+          <h4><b>Tarifário Maxibin</b></h4>
+          <p>Com o novo tarifário Maxibin podes ter
+            chamadas, sms, internet e Facebook Flex
+            Grátis para rede Unitel STP.</p>
+        </div>
+      </div>
+
+      <div class="w3-card" style="width:30%">
+        <img src="imagens/tarifario-maxibin.jpeg" alt="Person" style="width:100%">
+        <div class="w3-container">
+          <h4><b>Promoção</b></h4>
+          <p>Vive mais a Internet a triplicar
+            em todos os pacotes. Agora com 2
+            novos pacotes. Aproveita a promoção e
+            vive na net.</p>
+        </div>
+      </div>
+    </div>
+
+    <!--parte de baixo-->
+    <footer class="footer">
       <div class="span2">
-      <h5><b>PRODUTOS E SERVIÇOS</b></h5>
-      <a href="#">Tarifários</a><br>
-      <a href="#">Equitamentos</a><br>
-      <a href="#">Consulta de saldo</a><br>
-       </div>
-      <div class="span2">
-      <h5><b>CONSULTA E REGISTO</b></h5>
-      <a href="#">Carregamentos</a> <br>
-      <a href="#">Registrar Número</a><br>
+        <h5><b>MAIS SEVIÇOS</b></h5>
+        <a href="#">Internet no telemóvel</a><br>
+        <a href="#">Roaming</a><br>
+        <a href="#">Serviços</a><br>
+        <a href="#">Revistas</a><br>
       </div>
       <div class="span2">
-      <h5><b>SUPORTE</b></h5>
-      <a href="faleconosco.html">Fale Conosco</a> <br>
-      <a href="#">Onde Estamos</a><br>
-      </div>     
-  
-</footer> 
-</div> 
+        <h5><b>PRODUTOS E SERVIÇOS</b></h5>
+        <a href="#">Tarifários</a><br>
+        <a href="#">Equitamentos</a><br>
+        <a href="#">Consulta de saldo</a><br>
+      </div>
+      <div class="span2">
+        <h5><b>CONSULTA E REGISTO</b></h5>
+        <a href="#">Carregamentos</a> <br>
+        <a href="#">Registrar Número</a><br>
+      </div>
+      <div class="span2">
+        <h5><b>SUPORTE</b></h5>
+        <a href="faleconosco.html">Fale Conosco</a> <br>
+        <a href="#">Onde Estamos</a><br>
+      </div>
+
+    </footer>
+  </div>
 </body>
+
 </html>
